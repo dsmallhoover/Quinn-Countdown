@@ -1,0 +1,28 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #fff9e9;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 60px 60px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.image {
+  text-align: center;
+}
+
+#demo {
+  font-weight: bold;
+}
