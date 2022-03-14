@@ -21,6 +21,7 @@ body {
 
 .image {
   text-align: center;
+  display: inline-block;
 }
 
 #demo {
