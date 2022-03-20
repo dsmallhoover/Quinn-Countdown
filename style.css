@@ -19,12 +19,7 @@ body {
   text-align: center;
 }
 
-.image {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-#demo {
+#countdown {
   font-weight: bold;
+  font-size: 25px;
 }
