@@ -6,12 +6,17 @@ var x = setInterval(function() {
     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    var today = new Date();
+    var dd = String(today.getDate()).padStart(2, '0');
+    var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0
+    var yyyy = today.getFullYear();
+    today = mm + '/' + dd + '/' + yyyy;
 
    document.getElementById("countdown").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
 
-   if (distance < 0) {
-       document.getElementById("demo").innerHTML = "TODAY IS THE DAY! " + "HAPPY BIRTHDAY QUINN ";
-   }
+     if (today = 03 + '/' + 27) {
+     document.getElementById("countdown").innerHTML = "TODAY IS THE DAY! " + "HAPPY BIRTHDAY QUINN ";
+     }
 
 }, 1000);
 
