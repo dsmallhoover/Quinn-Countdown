@@ -6,6 +6,7 @@ var x = setInterval(function() {
     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    //next 3 variables are for the if statement. When it is the actual end date of countdown.
     var date = new Date().getDate();
     var month = new Date().getMonth();
     var bday = date + month;
