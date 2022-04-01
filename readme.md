@@ -30,7 +30,9 @@ A simple countdown timer using HTML, CSS, JS, and Bootstrap. Quick build to show
 
 3. In HTML file, upload meme image and personalize the content.
 
-4. In JS file, change const countDownDate to your desired date.
+4. In JS file,
+
+    - Change const countDownDate to your desired date.
 
     - Adjust condition and message in the if statement.
 
